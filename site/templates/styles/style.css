@@ -1,0 +1,15 @@
+.chart {position:relative;}
+.loading { opacity:.5;}
+.loading:before {
+	z-index:1000000;
+	line-height: 40px;
+	display: block;
+	position: absolute;
+	left:48%;
+	top:20%;
+	font-size: 20px;
+	content: "\f021";
+	font-family: FontAwesome;
+	-webkit-animation: uk-rotate 2s infinite linear;
+	animation: uk-rotate 2s infinite linear;
+}/* blank */ 
