@@ -11,7 +11,7 @@
 		$stateProvider
 		.state('home',{
 			url:'/',
-			templateUrl:'/client/app/layout/home.html?rnd=12312ds12',
+			templateUrl:'/client/app/layout/home.html?rnd=12s12',
 			controller:'homeCtrl',
 			resolve : {
 				data:['$http','$q',function($http,$q) {
@@ -96,6 +96,8 @@
 			team.users = value.data.data.users;
 			team.points = 0;
 			team.entries = 0;
+			team.riders = value.data.data.users.length;
+
 			angular.forEach(value.data.data.users,function(user){
 				team.points = team.points+parseInt(user.points);
 				team.entries = team.entries+parseInt(user.entries);
@@ -114,6 +116,7 @@
 				if(user.shortname == $state.params.rider) $rootScope.user = user;
 				$scope.riders.push(user);
 			});
+			team.pointsPerRider = parseInt(team.points / team.riders);
 			$scope.teams.push(team);
 			$rootScope.riders = $scope.riders;
 		});
