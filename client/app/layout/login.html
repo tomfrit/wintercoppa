@@ -1,0 +1,24 @@
+
+	<!--div ng-if="message" class="uk-alert" data-uk-alert>
+		<a href="" clas="uk-alert-close uk-close"></a>
+		<p>{{message}}</p>
+	</div-->
+	<div ng-if="user" rider="user" google-chart chart="chartObject" class="chart" ng-class="{'loading':loading}"></div>
+	<div ng-if="!user" class="uk-container-center">
+		<div class="uk-text-center uk-text-danger">Wähle einen Scuderisti für sinnlose Statisti</div>
+
+	</div>
+	<div ng-if="user" class="uk-container-center">
+		<h2>{{user.name}}</h2>
+		<ul class="uk-list">
+			<li><b>{{user.name}}</b> hat <b>{{user.points}} Punkte</b> aus <b>{{user.entries}} Einträgen</b>. Das sind <b>{{user.entriesPerDay}} Einträge pro Tag</b>.</li>
+			<li><b>{{user.name}}</b> betrieb <b>{{user.durationFormatted}}</b> Sport seit dem 2.November 2015. </li>
+			<li>Das sind <b>{{user.percentage}}% der Zeit</b> oder <b>{{user.timePerDay}} pro Tag</b>.</li>
+			<li><b>{{user.name}}</b> belegt damit <b>Platz {{myPlacing}}</b> der Scuderia Rangliste<!-- und auf Platz Y der Winterpokal Rangliste--></li>
+			<li><b>{{user.name}}s Team {{user.team.name}}</b> steht auf <b>Platz {{teamPlacing}}</b> der Scuderia Rangliste<!-- und auf Platz XX der gesamten Rangliste--></li>
+			<li><b>{{user.name}}</b> steht auf <b>Platz {{myTeamPlacing}}</b> in seinem Team.</li>
+			<li><a href="{{user.url}}" target="_blank"><i class="uk-icon uk-icon-external-link"></i> <b>{{user.name}}</b> bei rennrad-news.de</a></li>
+			<li><a href="{{user.team.info.url}}" target="_blank"><i class="uk-icon uk-icon-external-link"></i> <b>{{user.team.name}}</b> bei rennrad-news.de</a></li>
+		</ul>
+		<!--button class="uk-button" ng-click="logout()">Ausloggen</button-->
+	</div>

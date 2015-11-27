@@ -1,0 +1,922 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"eintrag"
+			],
+			[
+				"date",
+				"dateArray"
+			],
+			[
+				"Char",
+				"chartObject"
+			],
+			[
+				"c",
+				"controller"
+			],
+			[
+				"deta",
+				"detailCtrl"
+			],
+			[
+				"time",
+				"timePerDay"
+			],
+			[
+				"duration",
+				"durationFormatted"
+			],
+			[
+				"diff",
+				"diffDays"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"preg",
+				"preg_split"
+			],
+			[
+				"array_p",
+				"array_pop"
+			],
+			[
+				"analy",
+				"analytics_id"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"render",
+				"renderOAuthForm"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"protc",
+				"protected"
+			],
+			[
+				"re",
+				"remoteData"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"change",
+				"change_data"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"send",
+				"sendData"
+			],
+			[
+				"page",
+				"pagePath"
+			],
+			[
+				"five",
+				"fiveDays"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"end",
+				"end_date"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"array",
+				"array_shift"
+			],
+			[
+				"prof",
+				"profileId"
+			],
+			[
+				"views",
+				"views_24h"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pub",
+				"publish_date"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"ba",
+				"baVideo"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"foot",
+				"footer-box"
+			],
+			[
+				"category",
+				"categorySelect"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"fie",
+				"field_is_private"
+			],
+			[
+				"modul",
+				"modules"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"profile",
+				"profile_parent"
+			],
+			[
+				"profi",
+				"profile_template"
+			],
+			[
+				"bigair_",
+				"bigair_user"
+			],
+			[
+				"all",
+				"allCats"
+			],
+			[
+				"sort",
+				"sortString"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"tag",
+				"tagCond"
+			],
+			[
+				"query",
+				"queryString"
+			],
+			[
+				"dis",
+				"displayname"
+			],
+			[
+				"activity",
+				"activityUser"
+			],
+			[
+				"array_s",
+				"array_slice"
+			],
+			[
+				"teas",
+				"teaserdata"
+			],
+			[
+				"teaser",
+				"teaserbild"
+			],
+			[
+				"H",
+				"HookEvent"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"vi",
+				"video_status"
+			],
+			[
+				"erro",
+				"error_log"
+			],
+			[
+				"comment",
+				"comment_text"
+			],
+			[
+				"ver",
+				"verbinden"
+			],
+			[
+				"se",
+				"settings_info"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fb",
+				"fb_like"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"produkt",
+				"produkte_kat_zuordnung"
+			],
+			[
+				"warenkorb",
+				"warenkorb_hersteller_ID"
+			],
+			[
+				"ps_tr",
+				"ps_tricomaId"
+			],
+			[
+				"wa",
+				"watchedItems"
+			],
+			[
+				"SEREVR",
+				"_SERVER"
+			],
+			[
+				"ps_t",
+				"ps_tricomaBereich"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"prod",
+				"productExists"
+			],
+			[
+				"fetch",
+				"fetch_row"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"pro",
+				"produktid"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/app/layout/login.html",
+			"settings":
+			{
+				"buffer_size": 1664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/templates/styles/style.css",
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/templates/home.php",
+			"settings":
+			{
+				"buffer_size": 2749,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/layout/home.html",
+			"settings":
+			{
+				"buffer_size": 2647,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/thomas/www/wintercoppa",
+		"/home/thomas/www/wintercoppa/Services",
+		"/home/thomas/www/wintercoppa/client",
+		"/home/thomas/www/wintercoppa/client/app",
+		"/home/thomas/www/wintercoppa/client/app/layout",
+		"/home/thomas/www/wintercoppa/site",
+		"/home/thomas/www/wintercoppa/site/templates",
+		"/home/thomas/www/wintercoppa/site/templates/styles",
+		"/home/thomas/www/wintercoppa/vendor"
+	],
+	"file_history":
+	[
+		"/home/thomas/www/wintercoppa/client/app/config.js",
+		"/home/thomas/www/paranoia-publishing/.gitignore",
+		"/home/thomas/www/paranoia-publishing/site/templates/stats-modul.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/termin_import.php",
+		"/home/thomas/Downloads/Kategorien Product Guide.rtf",
+		"/home/thomas/www/paranoia-publishing/site/assets/logs/termin_import-log.txt",
+		"/home/thomas/www/paranoia-publishing/Services/termin_import.php",
+		"/home/thomas/www/dirtmasters-festival/site/modules/ProcessOAuthLogin.module",
+		"/home/thomas/www/paranoia-publishing/site/templates/oauth.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/rt.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/scripts/jquery.periodicalupdater.js",
+		"/home/thomas/www/paranoia-publishing/site/templates/mag_item.inc",
+		"/home/thomas/www/tricoma/templates/snakebite/kunden_anmeldung.html",
+		"/home/thomas/www/paranoia-publishing/site/templates/sidebar.inc",
+		"/home/thomas/www/paranoia-publishing/script/orange.js",
+		"/home/thomas/www/paranoia-publishing/site/templates/login.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/scripts/main.js",
+		"/home/thomas/www/paranoia-publishing/site/templates/notices.inc",
+		"/home/thomas/www/paranoia-publishing/site/templates/styles/style.css",
+		"/home/thomas/www/paranoia-publishing/site/modules/ParaMags.module",
+		"/home/thomas/www/paranoia-publishing/site/assets/cache/MarkupCache/mags/mags.cache",
+		"/home/thomas/www/paranoia-publishing/Services/test.php",
+		"/home/thomas/www/paranoia-publishing/site/assets/logs/errors.txt",
+		"/home/thomas/www/paranoia-publishing/site/templates/scripts/hello_analytics_api_v3.js",
+		"/home/thomas/www/paranoia-publishing/Services/upload.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/scripts/auth_util.js",
+		"/home/thomas/www/paranoia-publishing/site/templates/main.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/simple_article.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/scripts/test.js",
+		"/home/thomas/www/paranoia-publishing/site/templates/stats.php",
+		"/home/thomas/www/paranoia-publishing/site/config.php",
+		"/home/thomas/www/paranoia-publishing/site/templates/mags.inc",
+		"/home/thomas/www/paranoia-publishing/site/templates/home.php",
+		"/home/thomas/Downloads/vorlage termine web.xlsx - DIRTBIKER.csv",
+		"/home/thomas/www/paranoia-publishing/Services/example.report.php",
+		"/tmp/fz3temp-1/config.php",
+		"/home/thomas/www/dirtbiker/site/templates/styles/style.css",
+		"/home/thomas/www/dirtbiker/site/templates/comments.inc",
+		"/home/thomas/www/spokemag/site/templates/sidebar.inc",
+		"/home/thomas/www/dirtbiker/site/templates/main.php",
+		"/home/thomas/www/dirtbiker/site/templates/video_overview.php",
+		"/home/thomas/www/dirtbiker/site/templates/home.php",
+		"/home/thomas/www/dirtbiker/site/templates/wallpaper_overview.php",
+		"/home/thomas/www/dirtbiker/site/templates/overview.php",
+		"/home/thomas/www/dirtbiker/site/templates/begriff.php",
+		"/home/thomas/www/dirtbiker/site/templates/article.php",
+		"/home/thomas/www/bigair2/site/templates/sidebar.inc",
+		"/home/thomas/www/dirtbiker/site/templates/sidebar.inc",
+		"/home/thomas/www/dirtbiker/site/templates/wallpaper.php",
+		"/home/thomas/www/bigair2/site/templates/banner/redpineapple.inc",
+		"/home/thomas/www/bmxrider/site/templates/desktop/wallpaper.php",
+		"/home/thomas/www/dirtbiker/site/modules/ParanoiaTools.module",
+		"/home/thomas/www/dirtbiker/site/templates/news.inc",
+		"/home/thomas/www/dirtbiker/site/templates/pager.php",
+		"/home/thomas/www/dirtbiker/site/templates/aktuelles_item.inc",
+		"/home/thomas/www/bmxrider/site/templates/desktop/wallpaper_overview.php",
+		"/home/thomas/www/dirtbiker/site/templates/search.php",
+		"/home/thomas/www/dirtbiker/site/templates/simple_article.php",
+		"/home/thomas/www/dirtbiker/site/templates/video.php",
+		"/home/thomas/www/dirtbiker/site/templates/scripts/addons/search.js",
+		"/home/thomas/www/dirtbiker/site/templates/video_item.inc",
+		"/home/thomas/www/dirtbiker/site/modules/PublishDate.module",
+		"/home/thomas/www/dirtbiker/site/modules/Bigairtv.module",
+		"/home/thomas/www/dirtbiker/site/templates/aktuelles.inc",
+		"/home/thomas/www/bigair2/site/modules/ParanoiaShop.module",
+		"/home/thomas/www/dirtbiker/wire/modules/Process/ProcessPageAdd/ProcessPageAdd.module",
+		"/home/thomas/.cache/.fr-3TwCE6/stylesheet.css",
+		"/home/thomas/.cache/.fr-U9pkuh/stylesheet.css",
+		"/home/thomas/www/paranoia-publishing/script/orange.css",
+		"/home/thomas/www/dirtbiker/site/templates/related.inc",
+		"/home/thomas/www/dirtbiker/site/templates/news_item.inc",
+		"/home/thomas/www/dirtbiker/site/templates/scripts/addons/autocomplete.js",
+		"/home/thomas/www/dirtbiker/test.json",
+		"/home/thomas/www/dirtbiker/site/templates/scripts/uikit.min.js",
+		"/home/thomas/www/bigair2/site/templates/styles/style.css",
+		"/home/thomas/www/bmxrider/site/modules/Bigairtv.module",
+		"/home/thomas/www/bmxrider/site/templates/styles/style.css",
+		"/home/thomas/www/bmxrider/site/templates/styles/mobile-style.css",
+		"/home/thomas/www/dirtbiker/site/config.php",
+		"/home/thomas/www/dirtbiker/site/templates/scripts/main.js",
+		"/home/thomas/www/dirtbiker/site/templates/banner/fullsize.inc",
+		"/home/thomas/www/dirtbiker/site/templates/gallery.inc",
+		"/home/thomas/www/dirtbiker/site/templates/videos.inc",
+		"/home/thomas/www/dirtbiker/site/templates/scripts/jquery-2.1.1.min.js",
+		"/home/thomas/www/dirtbiker/.htaccess",
+		"/home/thomas/www/dirtbiker/site/templates/api.php",
+		"/home/thomas/www/dirtbiker/site/templates/banner/superbanner.inc",
+		"/home/thomas/www/dirtbiker/site/templates/banner/rectangle1.inc",
+		"/home/thomas/www/dirtbiker/site/templates/banner/rectangle2.inc",
+		"/home/thomas/www/dirtbiker/site/templates/banner/skyscraper.inc",
+		"/home/thomas/www/dirtbiker/site/templates/banner/wallpaper.inc",
+		"/home/thomas/www/dirtbiker/site/templates/banner/epaper.inc",
+		"/home/thomas/www/dirtbiker/site/templates/banner/mobile.inc",
+		"/home/thomas/.cache/.fr-tJW2A8/stylesheet.css",
+		"/home/thomas/www/rebeljam/site/templates/main.php",
+		"/home/thomas/www/bigair2/site/templates/mediaportal/main.php",
+		"/home/thomas/www/freude/wire/core/InputfieldWrapper.php",
+		"/home/thomas/www/rebeljam/site/templates/article.php",
+		"/home/thomas/www/rebeljam/site/templates/share.inc",
+		"/home/thomas/www/rebeljam/site/templates/sponsoren.inc",
+		"/home/thomas/www/rebeljam/site/templates/sidebar.inc",
+		"/home/thomas/www/rebeljam/site/templates/home.php",
+		"/home/thomas/www/rebeljam/site/templates/media.inc",
+		"/home/thomas/www/dirtbiker/styles/style.css",
+		"/home/thomas/www/dirtbiker/index.html",
+		"/home/thomas/www/rebeljam/site/templates/gallery_overview.php",
+		"/home/thomas/www/rebeljam/site/templates/styles/uikit.css",
+		"/home/thomas/www/rebeljam/site/templates/overview.php",
+		"/home/thomas/www/rebeljam/site/templates/teaser_item.inc",
+		"/home/thomas/www/rebeljam/site/templates/scripts/jquery.socialshareprivacy.js",
+		"/home/thomas/www/rebeljam/site/templates/comments.inc",
+		"/home/thomas/www/dirtmasters-festival/site/templates/main.php",
+		"/home/thomas/www/rebeljam/site/templates/scripts/responsiveslides.js",
+		"/home/thomas/www/rebeljam/site/templates/instagram.inc",
+		"/home/thomas/www/rebeljam/site/templates/pager.inc",
+		"/home/thomas/www/rebeljam/site/templates/scripts/main.js",
+		"/home/thomas/.cache/.fr-BNsVma/Slides-SlidesJS-3/source/jquery.slides.js",
+		"/home/thomas/www/rebeljam/site/templates/nav.inc",
+		"/home/thomas/.cache/.fr-cA2p4m/Slides-SlidesJS-3/source/jquery.slides.js",
+		"/home/thomas/www/rebeljam/site/templates/styles/style.css",
+		"/home/thomas/www/bmxrider/site/templates/select.php",
+		"/home/thomas/www/bmxrider/site/templates/desktop/main.php",
+		"/home/thomas/www/bmxrider/site/templates/desktop/overview.php",
+		"/home/thomas/www/bmxrider/site/templates/pager.php",
+		"/home/thomas/www/rebeljam/site/templates/gallery.php",
+		"/home/thomas/www/rebeljam/site/modules/ParanoiaInstagram.module",
+		"/home/thomas/www/rebeljam_old/media.html",
+		"/home/thomas/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/home/thomas/www/dirtbiker/wire",
+			"/home/thomas/www/freude",
+			"/home/thomas/www/admin/wire",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this",
+			"scope",
+			"      $scope",
+			"$scope",
+			"getEle",
+			"wrap",
+			"remoteda",
+			"conso",
+			"ajaxSettings",
+			"getdata",
+			"ajax",
+			"get(",
+			"realtime",
+			"checkA",
+			"teaserbild",
+			"vi->teaserbild",
+			"vi->",
+			"vi",
+			"Created page",
+			"h3",
+			"h1",
+			"h2",
+			"h1",
+			"droid",
+			"request",
+			"load",
+			"gallery",
+			"Missing required value",
+			">\n",
+			"background",
+			"src",
+			"img class=\"uk-responsive-width\" ",
+			" class=\"uk-responsive-width\"",
+			"#",
+			"=\"//",
+			"in,margin-bottom 0.1s ease-in",
+			",margin-bottom 0.1s ease-in",
+			"height",
+			"h1",
+			"navbar",
+			"nav",
+			"edit",
+			"item",
+			"ii",
+			"child",
+			"inden",
+			"fonts",
+			"news-it",
+			"media",
+			"news-it",
+			"news-item",
+			".box",
+			"article",
+			"conten",
+			"context",
+			"delete",
+			"fb_user",
+			"LEFT JOIN",
+			"SQL_CALC_FOUND_ROWS",
+			"LEFT JOIN",
+			"LEFT_JOIN",
+			"SQL_CALC_FOUND_ROWS",
+			"is_pri",
+			"↵LEFT",
+			"↵",
+			"urlSeg",
+			"private",
+			"news-item",
+			"function isviewable",
+			"steifen",
+			"contex",
+			"css",
+			"setting",
+			"context",
+			"eee",
+			"ps_tricomaDbUser",
+			" $data['ps_tricomaDbUser",
+			"$data['",
+			"exit",
+			">\n",
+			"height",
+			"class=\"PageList\"",
+			"date",
+			"button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/app/layout/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								667,
+								667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site/templates/styles/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "site/templates/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1430,
+								1430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/app/layout/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2191,
+								2191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wintercoppa.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"profi",
+				"bigair2/site/templates/profile.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "prod",
+		"selected_items":
+		[
+			[
+				"prod",
+				"~/www/productspecial13/ps.sublime-workspace"
+			],
+			[
+				"mtb",
+				"~/www/mtbrider/mtbrider.sublime-project"
+			],
+			[
+				"",
+				"~/www/bigair2/bigair2.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

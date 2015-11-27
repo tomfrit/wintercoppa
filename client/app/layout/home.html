@@ -1,0 +1,21 @@
+<div class="uk-container">
+	<div class="uk-width-1-2 uk-width-small-1-5 uk-width-large-1-10 uk-container-center uk-margin-large-bottom"><a href="http://scuderia-suedstadt.de/" target="_blank"><img src="/img/scudi.jpg" class="uk-width-1-1"></a></div>
+	<div class="uk-width-1-1 uk-width-small-5-6 uk-container-center uk-margin-large-bottom" user-info></div>
+	<div class="uk-width-1-1 uk-width-small-5-6 uk-container-center uk-margin-large-bottom">
+		<h2>Teams</h2>
+		<div class="uk-accordion" ng-accordion>
+			<h3  class="uk-accordion-title" ng-repeat-start="team in teams | orderBy:'-points'"><span class="uk-badge uk-badge-notification uk-badge-danger uk-margin-right">{{$index+1}}</span> <span class="uk-text-bold uk-margin-right">{{team.name}}</span> <span class="uk-text-nowrap">{{team.points}} Punkte / {{team.entries}} Einträge <a href="" title="Team {{team.name}} auf rennrad-news.de" ng-click="goTo(team.info.url,$event)"><i class="uk-icon uk-icon-external-link-square uk-margin-left"></i></a> <span ng-if="user.team.info.id==team.info.id" class="uk-badge uk-badge-danger" my-team="{{$index}}">{{user.name}}s Team</span></span></h3>
+			<div class="uk-accordion-content"  ng-repeat-end>
+				<ul class="uk-list uk-list-space uk-margin-left">
+					<li ng-repeat="teamrider in team.users | orderBy:'-points'"><a ui-sref="home.details({rider:teamrider.shortname})" class="uk-text-bold" ng-class="teamrider.name==team.info.leader.name?'uk-text-danger':''" title="Mehr {{teamrider.shortname}} Info">{{teamrider.name}}</a> {{teamrider.points}} Punkte / {{teamrider.entries}} Einträge <span ng-if="user.id==teamrider.id" class="uk-badge uḱ-badge-danger" me-in-team="{{$index+1}}"><i class="uk-icon uk-icon-check"></i></span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="uk-width-1-1 uk-width-small-5-6 uk-container-center">
+		<h2>Fahrer</h2>
+		<ul class="uk-list uk-list-striped">
+			<li ng-repeat="rider in riders | orderBy:'-points'"><span class="uk-text-large uk-text-bold uk-margin-right">{{$index+1}}</span>  <a ui-sref="home.details({rider:rider.shortname})" class="uk-text-bold uk-margin-right" ng-class="user.id==rider.id?'uk-text-danger':''" title="Mehr {{rider.name}} Info">{{rider.name}}</a> / {{rider.team.name}} / <span class="uk-text-nowrap"><b>{{rider.points}} Punkte</b>  / {{rider.entries}} Einträge <a href="" title="{{rider.name}} auf rennrad-news.de" ng-click="goTo(rider.url,$event)"><i class="uk-icon uk-icon-external-link-square uk-margin-left"></i></a> <span ng-if="user.id==rider.id" class="uk-badge uḱ-badge-danger" me="{{$index+1}}"><i class="uk-icon uk-icon-check"></i></span></span></li>
+		</ul>
+	</div>
+</div>
