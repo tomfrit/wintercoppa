@@ -6,12 +6,12 @@
 
 	function config($stateProvider, $urlRouterProvider,$locationProvider,$httpProvider) {
 
-		var teams = [417,405,404,406,407,399,403];
+		teams = [417,405,404,406,407,399,403];
 		$locationProvider.html5Mode({enabled:true});
 		$stateProvider
 		.state('home',{
 			url:'/',
-			templateUrl:'/client/app/layout/home.html?rnd=12s12',
+			templateUrl:'/client/app/layout/home.html?rnd=1567ds5s12',
 			controller:'homeCtrl',
 			resolve : {
 				data:['$http','$q',function($http,$q) {
@@ -80,15 +80,18 @@
 
 	}
 
+
 	app.controller('homeCtrl',homeCtrl);
-	homeCtrl.$inject = ['$scope','$rootScope','data','$location','$state'];
-	function homeCtrl($scope,$rootScope,data,$location,$state) {
+	homeCtrl.$inject = ['$scope','$rootScope','data','$location','$state','$http','$sce','$q'];
+	function homeCtrl($scope,$rootScope,data,$location,$state,$http,$sce,$q) {
 		$scope.teams = new Array();
 		$scope.riders = new Array();
+		$scope.placeholder = $sce.trustAsHtml('<i class="uk-icon-spin uk-icon-spinner"></i>');
 		$scope.goTo = function(url,$event) { window.open(url);}
 
 
 		$scope.$location = $location;
+		var users = [];
 		angular.forEach(data,function(value){
 			var team = {};
 			team.name = value.data.data.team.name;
@@ -99,6 +102,7 @@
 			team.riders = value.data.data.users.length;
 
 			angular.forEach(value.data.data.users,function(user){
+				users.push(user.id);
 				team.points = team.points+parseInt(user.points);
 				team.entries = team.entries+parseInt(user.entries);
 				user.points = parseInt(user.points);
@@ -116,12 +120,27 @@
 				if(user.shortname == $state.params.rider) $rootScope.user = user;
 				$scope.riders.push(user);
 			});
+			
 			team.pointsPerRider = parseInt(team.points / team.riders);
 			$scope.teams.push(team);
 			$rootScope.riders = $scope.riders;
 		});
-
-
+		$q.all(users).then(function(){
+			console.debug(users);
+		});
+		$rootScope.teamRanking = {};
+		$rootScope.userRanking = {};
+		$http.get('/Services/request.php?f=/api/v1/team_ranking/get.json?limit=1000').then(function(d){
+			angular.forEach(d.data.data,function(val){
+				if(teams.indexOf(parseInt(val.team.id))>-1) $rootScope.teamRanking[val.team.id] = $sce.trustAsHtml(val.ranking.position.toString());
+			});
+		});
+		$http.get('/Services/request.php?f=/api/v1/user_ranking/get.json?limit=10000').then(function(d){
+			angular.forEach(d.data.data,function(val){
+				if(users.indexOf(val.user.id)>-1) $rootScope.userRanking[val.user.id] = $sce.trustAsHtml(val.ranking.position.toString());
+			});
+			console.debug($rootScope.userRanking);
+		});
 	}
 
 	app.directive('ngAccordion',ngAccordion);
@@ -138,12 +157,13 @@
 
 	}
 
+
 	app.directive('userInfo',userInfo);
 	function userInfo($http,$rootScope) {
 
 		return {
 			restrict:'A',
-			templateUrl:'/client/app/layout/login.html?rnd=34dews342',
+			templateUrl:'/client/app/layout/login.html?rnd=354342',
 			controller:function($scope) {
 				var begin = new Date("2015-11-02").getTime();
 				var diff = new Date().getTime()-begin;

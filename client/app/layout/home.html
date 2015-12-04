@@ -10,7 +10,7 @@
 
 				</div>
 				 <span class="uk-text-bold uk-margin-right">{{team.name}}</span> {{team.points}} Punkte<a href="" title="Team {{team.name}} auf rennrad-news.de" ng-click="goTo(team.info.url,$event)"><i class="uk-icon uk-icon-external-link-square uk-margin-left"></i></a> <span ng-if="user.team.info.id==team.info.id" class="uk-badge uk-badge-danger" my-team="{{$index}}">{{user.name}}s Team</span></span><br>
-				 <span class="uk-article-meta uk-text-nowrap">{{team.riders}} Mitglieder / </span><span class="uk-article-meta uk-text-nowrap">{{team.entries}} Einträge / Durchschnittlich {{team.pointsPerRider}} Punkte pro Mitglied</span>
+				 <span class="uk-article-meta uk-text-nowrap">{{team.riders}} Mitglieder / </span><span class="uk-article-meta uk-text-nowrap">{{team.entries}} Einträge / Durchschnittlich {{team.pointsPerRider}} Punkte pro Mitglied / Platz {{teamRanking[team.info.id]}} im Gesamtranking</span>
 			</div>
 			<div class="uk-accordion-content"  ng-repeat-end>
 				
@@ -23,7 +23,7 @@
 	<div class="uk-width-1-1 uk-width-small-5-6 uk-container-center">
 		<h2>Fahrer</h2>
 		<ul class="uk-list uk-list-striped">
-			<li ng-repeat="rider in riders | orderBy:'-points'"><span class="uk-text-large uk-text-bold uk-margin-right">{{$index+1}}</span>  <a ui-sref="home.details({rider:rider.shortname})" class="uk-text-bold uk-margin-right" ng-class="user.id==rider.id?'uk-text-danger':''" title="Mehr {{rider.name}} Info">{{rider.name}}</a> / {{rider.team.name}} / <span class="uk-text-nowrap"><b>{{rider.points}} Punkte</b>  / {{rider.entries}} Einträge <a href="" title="{{rider.name}} auf rennrad-news.de" ng-click="goTo(rider.url,$event)"><i class="uk-icon uk-icon-external-link-square uk-margin-left"></i></a> <span ng-if="user.id==rider.id" class="uk-badge uḱ-badge-danger" me="{{$index+1}}"><i class="uk-icon uk-icon-check"></i></span></span></li>
+			<li ng-repeat="rider in riders | orderBy:'-points'"><span class="uk-text-large uk-text-bold uk-margin-right">{{$index+1}}</span>  <a ui-sref="home.details({rider:rider.shortname})" class="uk-text-bold uk-margin-right" ng-class="user.id==rider.id?'uk-text-danger':''" title="Mehr {{rider.name}} Info">{{rider.name}}</a> / {{rider.team.name}} / <span class="uk-text-nowrap"><b>{{rider.points}} Punkte</b>  / {{rider.entries}} Einträge / Platz <span ng-bind="userRanking[rider.id]">0</span> im Gesamtranking <a href="" title="{{rider.name}} auf rennrad-news.de" ng-click="goTo(rider.url,$event)"><i class="uk-icon uk-icon-external-link-square uk-margin-left"></i></a> <span ng-if="user.id==rider.id" class="uk-badge uḱ-badge-danger" me="{{$index+1}}"><i class="uk-icon uk-icon-check"></i></span></span></li>
 		</ul>
 	</div>
 </div>

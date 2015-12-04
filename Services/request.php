@@ -1,5 +1,7 @@
 <?php
-
+    include('../index.php');
+    $cache = wire('modules')->get("MarkupCache");
+    $sanitizer = wire('sanitizer');
     if (isset($_SERVER['HTTP_ORIGIN'])) {
         header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
         header('Access-Control-Allow-Credentials: true');
@@ -19,27 +21,29 @@
     }
 #echo $_GET['f'];die();
 // initialize curl ressource handle
-$c = curl_init('https://winterpokal.rennrad-news.de/'.$_GET['f']);#api/v1/teams/get/407.json');
+    $request = $sanitizer->name($_GET['f']);
+    if(!$data = $cache->get($request,360)) {
+        $c = curl_init('https://winterpokal.rennrad-news.de/'.$_GET['f']);#api/v1/teams/get/407.json');
 
 // set API token header
-curl_setopt(
-    $c,
-    CURLOPT_HTTPHEADER,
-    array('api-token: N10AW3K7MQAMX4E230TUG9JXQEASWTG5IYKJ')
-);
+        curl_setopt(
+            $c,
+            CURLOPT_HTTPHEADER,
+            array('api-token: N10AW3K7MQAMX4E230TUG9JXQEASWTG5IYKJ')
+        );
 
 // store the response body into a variable instead of directly printing it
-curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
 
 // execute the request
-$result = curl_exec($c);
+        $data = curl_exec($c);
 
-if (false === $result) {
-    throw new RuntimeException('ERR_CURL_REQUEST_FAILED');
-}
+        if (false === $data) {
+            throw new RuntimeException('ERR_CURL_REQUEST_FAILED');
+        }
 
 #$parsed_result = json_decode($result);
+    }
 
-
-echo $result;
+echo $data;
 ?>
